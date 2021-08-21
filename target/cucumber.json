@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7329000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the TodoMVC page",
+            "match": {
+              "location": "com.lingoda.step_definitions.JavaScriptStepDefs.user_is_on_the_TodoMVC_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1179000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should click on \"JavaScript\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"JavaScript\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.lingoda.step_definitions.JavaScriptStepDefs.user_should_click_on_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2242000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click on \"Polymer\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Polymer\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.lingoda.step_definitions.JavaScriptStepDefs.user_should_click_on_link(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-21T11:17:45.584Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4859000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.lingoda.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User should be edit Todo items",
+        "description": "",
+        "id": "user-joins-javascript-tab;user-should-be-edit-todo-items",
+        "after": [
+          {
+            "result": {
+              "duration": 1360000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.lingoda.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3351000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User adds \"Todo1 item\" as a Todo item1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Todo1 item\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.lingoda.step_definitions.PolymerStepDefs.user_adds_as_a_Todo_item1(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2082000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User adds \"Todo2 item\" as a Todo item2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Todo2 item\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.lingoda.step_definitions.PolymerStepDefs.user_adds_as_a_Todo_item2(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 546000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User edits the content of the \"Todo2 item\" Todo item2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Todo2 item\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.lingoda.step_definitions.PolymerStepDefs.user_edits_the_content_of_the_Todo_item2(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "User joins JavaScript tab",
+    "description": "",
+    "id": "user-joins-javascript-tab",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/JavaScript.feature",
+    "tags": []
+  }
+]
